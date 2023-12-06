@@ -3,24 +3,24 @@ package easy.tuto.myquizapplication;
 public class QuestionAnswer {
 
     public static String question[] ={
-            "Which company owns the android?",
+            "For which of the following disciplines is Nobel Prize awarded?",
             "Which one is not the programming language?",
-            "Where you are watching this video?",
-            "Which company owns the Apple?"
+            "Which is the biggest continent in the world?",
+            "Which is the longest river in the world?"
     };
 
     public static String choices[][] = {
-            {"Google","Apple","Nokia","Samsung"},
+            {"Physics and Chemistry","Physiology or Medicine", "Literature, Peace and Economics", "All of the above"},
             {"Java","Kotlin","Notepad","Python"},
-            {"Facebook","Whatsapp","Instagram","Youtube"},
-            {"Google","Apple","Nokia","Samsung"}
+            {"North America","Asia","Africa","Australia"},
+            {"Great Ganga","Nile","Amazon", "Niger"}
     };
 
     public static String correctAnswers[] = {
-            "Google",
+            "All of the above",
             "Notepad",
-            "Youtube",
-            "Apple"
+            "Asia",
+            "Nile"
     };
 
 }
